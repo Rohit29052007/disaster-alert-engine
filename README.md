@@ -1,21 +1,22 @@
 # Multilingual Disaster Communication Engine
 
 ## Problem
-Disaster alerts often fail due to language barriers, poor connectivity, and limited accessibility.
+Disaster alerts often fail due to language barriers, poor connectivity, and lack of accessibility.
 
 ## Solution
-An open-source platform that ingests verified alerts, translates them into regional languages, and delivers them via reliable channels like SMS, WhatsApp, and Voice.
+An open-source platform that ingests verified disaster alerts, translates them into regional languages, and delivers them via SMS, WhatsApp, and Voice.
 
 ## Architecture
-- Core alert schema and logic
-- Translation and routing services
-- Channel adapters
-- Admin dashboard
+- Core: Alert schema and validation
+- Services: Ingestion, translation, routing
+- Adapters: SMS, WhatsApp, Voice
+- Frontend: Admin dashboard
+- Docs: Architecture and setup guides
 
 ## Setup
 1. Clone the repository
-2. Configure Google Cloud credentials
-3. Run backend services
+2. Configure Google Cloud project
+3. Deploy backend services
 
-## License
-MIT / Apache 2.0
+## Contributing
+See CONTRIBUTING.md
