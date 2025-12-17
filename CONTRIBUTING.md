@@ -1,15 +1,16 @@
-# Contributing Guidelines
+# Contributing Guide
 
-Thank you for your interest in contributing.
+Thank you for contributing!
 
-## How to Contribute
-- Fork the repository
-- Create a feature branch
-- Submit a pull request with clear description
+## Workflow
+1. Fork the repo
+2. Create a feature branch
+3. Commit changes
+4. Open a Pull Request to `dev`
 
-## Code Standards
-- Follow existing project structure
+## Code Rules
+- Follow folder ownership
 - Write clear commit messages
 
-## Issues
-Please use GitHub issues for bugs and feature requests.
+## Communication
+Discuss major changes via GitHub Issues first.
